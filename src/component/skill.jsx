@@ -40,7 +40,7 @@ const Skill = () => {
 
       <center>
         <div className="heading-3">Tech I'm familiar with</div>
-        <hr className='shortHr'/>
+        <hr className="shortHr"/>
       </center>
 
       <div className="skills__list">
