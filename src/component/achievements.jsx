@@ -14,7 +14,7 @@ const Achievements = () => {
                 <div class="content-list">
                     <h1 class="content-list__title">SIH Grand Finalist</h1>
                     <h5 class="content-list__name">
-                        <a target="_blank" href="https://www.marketinc.net/" class="content-list__name-link">Smart India Hackathon 2022 </a>
+                        <a target="blank" href="https://www.marketinc.net/" class="content-list__name-link">Smart India Hackathon 2022 </a>
                         - Grand Finalist
                     </h5>
                     <div class="content-list__about">I along with my team from DCRUST were selected for Grand Finale which was held at Jai Bharath College of Management and Engineering Technology, Kerala. We worked under the Indian Knowledge System (IKS), All India Council for Technical Education (AICTE) problem statement Sanskrit voice to text and interface in Google Search Engine (AD976)..

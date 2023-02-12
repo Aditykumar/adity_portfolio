@@ -14,7 +14,7 @@ const Experience = () => {
           <div className="content-list">
             <h1 className="content-list__title">Full Stack MERN Developer</h1>
             <h5 className="content-list__name">
-              <a target="_blank" href="https://www.marketinc.net/" className="content-list__name-link">MarketInc</a>
+              <a target="blank" href="https://www.marketinc.net/" className="content-list__name-link">MarketInc</a>
               - Internship
             </h5>
             <div className="content-list__about">
@@ -28,7 +28,7 @@ const Experience = () => {
           <div className="content-list">
             <h1 className="content-list__title">Web Development</h1>
             <h5 className="content-list__name">
-              <a target="_blank" href="https://www.viratpack.com/" className="content-list__name-link">ViratPack</a>
+              <a target="blank" href="https://www.viratpack.com/" className="content-list__name-link">ViratPack</a>
               - Freelancing
             </h5>
             <div className="content-list__about">
@@ -40,7 +40,7 @@ const Experience = () => {
           <div className="content-list">
             <h1 className="content-list__title">Full Stack Web Developer</h1>
             <h5 className="content-list__name">
-              <a target="_blank" href="https://www.myways.in/" className="content-list__name-link">MyWays</a>
+              <a target="blank" href="https://www.myways.in/" className="content-list__name-link">MyWays</a>
               - Internship
             </h5>
             <div className="content-list__about">
@@ -57,12 +57,12 @@ const Experience = () => {
               Script Winter of Code, Participant
             </h1>
             <h5 className="content-list__name">
-              <a target="_blank" href="http://swoc.tech/" className="content-list__name-link">SWOC</a>
+              <a target="blank" href="http://swoc.tech/" className="content-list__name-link">SWOC</a>
               - Open Source Program
             </h5>
             <div className="content-list__about">
               I have contributed to various open source projects under Script
-              Winter of Code and it's an amazing experience and I got to learn
+              Winter of Code and it&#39;s an amazing experience and I got to learn
               many things on the way along with contributions.
             </div>
             <div className="content-list__date">December 2020 - February 2021</div>
@@ -73,7 +73,7 @@ const Experience = () => {
               NJACK Winter of Code, Participant
             </h1>
             <h5 className="content-list__name">
-              <a target="_blank" href="https://njackwinterofcode.github.io/" className="content-list__name-link">NWOC</a>
+              <a target="blank" href="https://njackwinterofcode.github.io/" className="content-list__name-link">NWOC</a>
               - Open Source Program
             </h5>
             <div className="content-list__about">

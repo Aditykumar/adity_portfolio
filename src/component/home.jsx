@@ -6,7 +6,7 @@ const Home = () => {
     <>
       <div className="home" id="home">
         <div className='opacityBg'>
-           <div className="typewriter">I'm Adity Kumar</div>
+           <div className="typewriter">I&#39;m Adity Kumar</div>
            <h2 className="mernText" data-text=" a MERN Developer"> a MERN Developer</h2>
 
           <Image className="imgBanner" src={imgBanner} width={500}  height={400} alt="banner"  />

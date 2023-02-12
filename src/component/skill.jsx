@@ -16,7 +16,7 @@ const Skill = () => {
         <div className="core-skills-item light-shadow">
           <h2 className="core-skills-item-title">Web Design</h2>
           <p className="core-skills-item-about">
-            I love designs and it's the first step before creating any
+            I love designs and it&#39;s the first step before creating any
             website as I can give layout to my imagination.
           </p>
         </div>
@@ -39,7 +39,7 @@ const Skill = () => {
       </div>
 
       <center>
-        <div className="heading-3">Tech I'm familiar with</div>
+        <div className="heading-3">Tech I&#39;m familiar with</div>
         <hr className="shortHr"/>
       </center>
 
