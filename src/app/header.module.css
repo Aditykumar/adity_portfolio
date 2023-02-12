@@ -1,0 +1,148 @@
+.nav {
+    position: fixed;
+    z-index: 1;
+    background-color: #fff;
+    top: 0;
+    height: 71px;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+.mobHeader{    display: flex;
+    position: fixed;
+    z-index: 2;
+    height: 71px;
+}
+.navLinksItem {
+    font-size: 18px;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    color: #646464;
+}
+
+.navLinksItem:hover {
+    color: #111;
+    transform: scale(1.02);
+}
+
+.navTitle {
+    font-family: vivaldi, serif;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    margin-left: 2rem;
+    text-decoration: none;
+    color: #111;
+    font-weight: bolder;
+}
+
+.navLinks {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navMob {
+    display: none;
+}
+
+@media screen and (max-width:767px) {
+    .navTitle{    font-size: 2rem;padding: 4px 0;}
+    .navMob {
+        width: 30px;
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        height: 30px;
+        border-radius: 50%;
+        border: 2px solid black;
+        padding: 10px;
+        background-image: url(../../public/img/menuIcon.svg);
+        background-position: center;
+        background-size: 60% 60%;
+        background-repeat: no-repeat;
+        transition: .2s all ease-in-out;
+    }
+
+
+    .close {
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        right: 20px;
+        top: 20px;
+    }
+
+    .close::after,
+    .close::before {
+        content: ' ';
+        position: absolute;
+        top: 0px;
+        height: 3px;
+        width: 16px;
+        border-radius: 10px;
+        background: gray;
+        transform: rotate(45deg);
+    }
+
+    .close::before {
+        transform: rotate(-45deg);
+
+    }
+
+    .mobHeader {
+        width: 100%;
+        height: 50px;
+        background-color: #fff;
+        position: fixed;
+        z-index: 1;
+        box-shadow: 0px 2px 20px #c3c3c3;
+    }
+
+
+    .navLinks {
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+    }
+
+    .nav {
+        height: 100vh;
+        width: 280px;
+        translate: calc(100vh + 280px);
+        padding: 30px 15px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        transition: .7s all ease-in-out;
+    }
+
+    .mobNavShow {
+        translate: 0;
+
+    }
+
+    .navLinksItem {
+
+        color: #646464;
+        padding: 10px 0;
+    }
+
+    .blankBg {
+        position: fixed;
+        width: 100vh;
+        height: 100vh;
+        z-index: 1;
+        background: rgb(0 0 0 / 50%);
+        transition: .7s all ease-in-out;
+    }
+
+    .OutSideBox {
+        height: 100vh;
+        width: 100vh;
+    }
+
+}
