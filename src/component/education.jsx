@@ -14,7 +14,7 @@ const Education = () => {
         <section className="content-container">
           <div className="content-list">
             <h1 className="content-list__title">
-              Bachelor's Degree in Computer Science & Engineering
+              Bachelor&#39;s Degree in Computer Science & Engineering
             </h1>
             <h5 className="content-list__name">
               Deenbandhu Chhotu Ram University Of Science And Technology
