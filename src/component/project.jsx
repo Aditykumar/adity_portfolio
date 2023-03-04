@@ -3,7 +3,7 @@ import React from 'react'
 import crowdy from '../../public/img/crowdy.png'
 const Project = () => {
     return (
-        <div classNameName="projects" id="projects">
+        <div className="projects" id="projects">
             <div className="title">
                 <h1 className="heading-1 heading-1--light heading-1--m">Projects</h1>
                 <div className="underline title__underline">
