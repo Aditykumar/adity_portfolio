@@ -15,20 +15,18 @@ const About = () => {
     <div className="about__container">
       <div className="about__content">
         <p className="about__text">
-          My name is Adity Kumar, I am a Full Stack Web Developer and Web Designer. An Open
+          My name is Adity Kumar, I am a Full Stack Web Developer. An Open
           Source enthusiast and a Computer Science student from India.
           <br/><br/>
           I love working on new and exciting technologies emerging nowadays. I
-          have good work experience as a MERN Stack Developer in startup(s) and UI/UX Designer
-          where I was core member of the development team and done quite some
-          contribution to open source as well.
+          have good work experience as a MERN Stack Developer.
         </p>
 
         <div className="about__buttons">
           <a href="#skills" className="btn-primary about__buttons-item">
             Skills
           </a>
-          <a target="_blank" href="/resume.pdf" className="btn-primary about__buttons-item">
+          <a target="_blank" href="/assets/Adity_Resume.pdf" className="btn-primary about__buttons-item">
             Resume
           </a>
         </div>

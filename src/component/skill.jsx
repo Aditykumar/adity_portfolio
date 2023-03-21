@@ -13,14 +13,7 @@ const Skill = () => {
 
     <div className="skills-container">
       <div className="core-skills">
-        <div className="core-skills-item light-shadow">
-          <h2 className="core-skills-item-title">Web Design</h2>
-          <p className="core-skills-item-about">
-            I love designs and it&#39;s the first step before creating any
-            website as I can give layout to my imagination.
-          </p>
-        </div>
-
+       
         <div className="core-skills-item core-skills-item--imp">
           <h2 className="core-skills-item-title">Web Development</h2>
           <p className="core-skills-item-about">
@@ -28,6 +21,14 @@ const Skill = () => {
             experience in it as well.
           </p>
         </div>
+
+        <div className="core-skills-item light-shadow">
+          <h2 className="core-skills-item-title">Time Management</h2>
+          <p className="core-skills-item-about">
+           I have good time management skills.
+          </p>
+        </div>
+
 
         <div className="core-skills-item light-shadow">
           <h2 className="core-skills-item-title">Problem Solving</h2>
@@ -49,20 +50,16 @@ const Skill = () => {
         <div>SASS</div>
         <div>Bootstrap</div>
         <div>Javascript</div>
-        <div>jQuery</div>
+        <div>MUI</div>
         <div>React.js</div>
         <div>Redux</div>
-        <div>Jest</div>
-        <div>Webpack</div>
         <div>Node.js</div>
         <div>Express.js</div>
         <div>MongoDB</div>
         <div>Firebase</div>
-        <div>Java</div>
-        <div>C</div>
-        <div>Python</div>
         <div>Git</div>
-        <div>MySQL</div>
+        <div>SQL</div>
+        <div>PSD</div>
         <div>Adobe XD</div>
       </div>
     </div>

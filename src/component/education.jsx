@@ -12,33 +12,43 @@ const Education = () => {
         </div>
 
         <section className="content-container">
-          <div className="content-list">
+        <div className="content-list">
             <h1 className="content-list__title">
-              Bachelor&#39;s Degree in Computer Science & Engineering
+            Masters in Computer Applications
             </h1>
             <h5 className="content-list__name">
-              Deenbandhu Chhotu Ram University Of Science And Technology
+            ISBM University, Chhattisgarh
             </h5>
-            <h5 className="content-list__name">Hons. - Blockchain</h5>
-            <div className="content-list__date">2019 - 2023</div>
+            <h5 className="content-list__name">Computer Science </h5>
+            <div className="content-list__date">2019 - 2022</div>
+          </div>
+          <div className="content-list">
+            <h1 className="content-list__title">
+              Bachelor&#39;s Degree in  Science
+            </h1>
+            <h5 className="content-list__name">
+            Chhatrapati Shahu Ji Maharaj University, Kanpur
+            </h5>
+            <h5 className="content-list__name">Mathematics</h5>
+            <div className="content-list__date">2015 - 2018</div>
           </div>
 
           <div className="content-list">
             <h1 className="content-list__title">
-              High School, Central Board of Secondary Education
+            Uttar Pradesh State Board of High School and Intermediate Education
             </h1>
             <h5 className="content-list__name">
-              Scored 95.6% in PCM (Non-Medical) with Informatics Practices
+            PCM (Non-Medical) with Informatics Practices
             </h5>
-            <div className="content-list__date">2019</div>
+            <div className="content-list__date">2015</div>
           </div>
 
           <div className="content-list">
             <h1 className="content-list__title">
-              Secondary School, Central Board of Secondary Education
+            Uttar Pradesh State Board of High School and Intermediate Education
             </h1>
-            <h5 className="content-list__name">Scored 10 CGPA</h5>
-            <div className="content-list__date">2017</div>
+            <h5 className="content-list__name">Science</h5>
+            <div className="content-list__date">2013</div>
           </div>
         </section>
       </div>

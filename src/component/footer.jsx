@@ -17,11 +17,11 @@ const Footer = () => {
       </p>
 
       <div className="contact-container__links inverted">
-        <a target="blank" href="mailto:justcode31@gmail.com" className="contact-container__links-item">Email</a>
-        <a target="blank" href="https://github.com/Chaitanya31612" className="contact-container__links-item">GitHub</a>
-        <a target="blank" href="https://www.linkedin.com/in/guptachaitanya/" className="contact-container__links-item">LinkedIn</a>
-        <a target="blank" href="https://medium.com/@guptachaitanya31" className="contact-container__links-item">Medium</a>
-        <a target="blank" href="https://twitter.com/Chaitan33456747" className="contact-container__links-item">Twitter</a>
+        <a target="blank" href="mailto:adityakushwah29@gmail.com" className="contact-container__links-item">Email</a>
+        <a target="blank" href="https://github.com/Aditykumar" className="contact-container__links-item">GitHub</a>
+        <a target="blank" href="https://www.linkedin.com/in/adity-kumar-302a22214/" className="contact-container__links-item">LinkedIn</a>
+        <a target="blank" href="https://instagram.com/mr.adityakushwah?igshid=MTA2NDdkNWE=" className="contact-container__links-item">Instagram</a>
+        <a target="blank" href="tel:+917037449337" className="contact-container__links-item">Mobile</a>
       </div>
     </div>
   </div>

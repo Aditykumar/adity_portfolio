@@ -12,79 +12,45 @@ const Experience = () => {
         </div>
     <section className="content-container">
           <div className="content-list">
-            <h1 className="content-list__title">Full Stack MERN Developer</h1>
+            <h1 className="content-list__title">MERN Stack Developer</h1>
             <h5 className="content-list__name">
-              <a target="blank" href="https://www.marketinc.net/" className="content-list__name-link">MarketInc</a>
-              - Internship
+              <a target="blank" href="https://www.collegedekho.com/" className="content-list__name-link">CollegeDekho</a>
+              - Full-time
             </h5>
             <div className="content-list__about">
-              Worked on their ERP system and implemented 3 major statistical dashboards for admin, sales and purchase.
-              Implemented charts using apexcharts and other profile related tables and components along with other assigned work.
-              Documented the project about setup and use, frontend and backend files containing folder structure and API guides.
+            In CollegeDekho, I have developed new site based on very advanced framework (Next.js) of React.I managed both frontend and backend part of the codebase.
             </div>
-            <div className="content-list__date">June 2022 - August 2022</div>
+            <div className="content-list__date">Mar 2022 - Present</div>
           </div>
 
           <div className="content-list">
-            <h1 className="content-list__title">Web Development</h1>
+            <h1 className="content-list__title">MERN Stack Developer (Mentor)</h1>
             <h5 className="content-list__name">
-              <a target="blank" href="https://www.viratpack.com/" className="content-list__name-link">ViratPack</a>
-              - Freelancing
+              <a target="blank" href="https://www.the10xacademy.com/" className="content-list__name-link">10x Academy</a>
+              - Part-time
             </h5>
             <div className="content-list__about">
-              I designed and developed a website for Virat Packaging, a Printing and Packaging company. I created UI design in AdobeXD and received feedback regarding it, then I developed the website using React.js.
+
+            At 10x Academy, I was mentoring student on how to build and manage a site on MERN.
             </div>
-            <div className="content-list__date">June 2022 - August 2022</div>
+            <div className="content-list__date">Nov 2022 - Feb 2023</div>
           </div>
           
           <div className="content-list">
-            <h1 className="content-list__title">Full Stack Web Developer</h1>
+            <h1 className="content-list__title">MERN Stack Developer</h1>
             <h5 className="content-list__name">
-              <a target="blank" href="https://www.myways.in/" className="content-list__name-link">MyWays</a>
+              <a target="blank" href="https://www.prepbytes.com/" className="content-list__name-link">PrepBytes</a>
               - Internship
             </h5>
             <div className="content-list__about">
-              I worked as a Full Stack Developer in MERN Stack with MyWays. I
+              I worked as a Full Stack Developer in MERN Stack with PrepBytes. I
               managed both frontend and backend part of the codebase along with
               deployment, testing related work and documentation as well. I had
               also managed the whole team for some time there.
             </div>
-            <div className="content-list__date">July 2020 - October 2020</div>
+            <div className="content-list__date">Sep 2021 - Mar 2022</div>
           </div>
 
-          <div className="content-list">
-            <h1 className="content-list__title">
-              Script Winter of Code, Participant
-            </h1>
-            <h5 className="content-list__name">
-              <a target="blank" href="http://swoc.tech/" className="content-list__name-link">SWOC</a>
-              - Open Source Program
-            </h5>
-            <div className="content-list__about">
-              I have contributed to various open source projects under Script
-              Winter of Code and it&#39;s an amazing experience and I got to learn
-              many things on the way along with contributions.
-            </div>
-            <div className="content-list__date">December 2020 - February 2021</div>
-          </div>
-
-          <div className="content-list">
-            <h1 className="content-list__title">
-              NJACK Winter of Code, Participant
-            </h1>
-            <h5 className="content-list__name">
-              <a target="blank" href="https://njackwinterofcode.github.io/" className="content-list__name-link">NWOC</a>
-              - Open Source Program
-            </h5>
-            <div className="content-list__about">
-              It was really a great experience with NJACK Winter of Code in
-              which I participated as a student. I got to know about open source
-              and contributed to various amazing projects and learned a lot. It
-              was really fun contributing to those projects. I got #13 rank out
-              of more than 1.2k participants.
-            </div>
-            <div className="content-list__date">December 2020 - January 2021</div>
-          </div>
         </section>
         </div>
 

@@ -12,14 +12,14 @@ const Achievements = () => {
             </div>
             <section className="content-container">
                 <div className="content-list">
-                    <h1 className="content-list__title">SIH Grand Finalist</h1>
+                    <h1 className="content-list__title">LIMITLESS PERFORMER Award</h1>
                     <h5 className="content-list__name">
-                        <a target="blank" href="https://www.marketinc.net/" className="content-list__name-link">Smart India Hackathon 2022 </a>
-                        - Grand Finalist
+                        <a target="blank" href="https://www.collegedekho.com/" className="content-list__name-link">CollegeDekho</a>
+                        - 2022
                     </h5>
-                    <div className="content-list__about">I along with my team from DCRUST were selected for Grand Finale which was held at Jai Bharath College of Management and Engineering Technology, Kerala. We worked under the Indian Knowledge System (IKS), All India Council for Technical Education (AICTE) problem statement Sanskrit voice to text and interface in Google Search Engine (AD976)..
+                    <div className="content-list__about">In CollegeDekho, I am doing my work very well and also completing my work with very less time limit. And I also got the Employee Of The Month Award.
                     </div>
-                    <div className="content-list__date">June 2022 - August 2022</div>
+                    {/* <div className="content-list__date">June 2022 - August 2022</div> */}
                 </div>
 
             </section>
