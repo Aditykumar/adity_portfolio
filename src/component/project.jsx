@@ -3,7 +3,7 @@ import React from 'react'
 import collegedekho from '../../public/img/collegedekho.png'
 import getmyuni from '../../public/img/getmyuni.png'
 import lms from '../../public/img/lms.png'
-import prepbytes from '../../public/img/prepbytes.png'
+import prepbytes from '../../public/img/prepBytes.png'
 const Project = () => {
     return (
         <div className="projects" id="projects">
