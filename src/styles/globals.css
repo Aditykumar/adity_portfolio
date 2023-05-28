@@ -629,7 +629,7 @@ learn-more__text {
 .skills__list div{width: calc(50% - 1rem);}
 
   .imgBanner {
-    display: none;
+    /* display: none; */
     position: absolute;
     bottom: 0;
     width: 300px;
