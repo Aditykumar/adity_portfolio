@@ -241,7 +241,7 @@ a {
 }
 
 .core-skills-item {
-  background-color: #f6f6f6;
+  background-color: #ebebeb;
   box-shadow: -12px -12px 25px white, 12px 12px 25px rgb(165 181 248 / 40%);
   transition: all 0.2s ease-in-out;
   padding: 2rem;
@@ -264,7 +264,7 @@ a {
 }
 
 .core-skills-item:hover {
-  transform: scale(1.01);
+  transform: scale(1.003);
 }
 
 .core-skills-item--image--col {
@@ -274,6 +274,7 @@ a {
 
 .core-skills-item--image--col img {
   width: 100%;
+  height: auto;
 }
 
 .core-skills-item-about {
@@ -296,8 +297,8 @@ a {
 }
 
 .tagbutton {
-  background-color: #eceffe;
-  color: #1740ed;
+  background-color: #e1e1e2;
+  color: #293878;
   margin-top: 5px;
   margin-right: 7px;
   border-radius: 100px;
@@ -309,7 +310,7 @@ a {
 }
 
 .tagbutton span {
-  padding-right: 5.5px;
+  padding: 20px;
 }
 
 .social-icon svg:hover {
@@ -340,22 +341,24 @@ a {
 .shortHr {
   width: 10rem !important;
 }
-
+.skills-container{text-align: center;}
 .skills__list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  justify-items: center;
+  display: flex;
+  width: 90%;
   gap: 2rem;
+  margin: auto;
+  flex-wrap: wrap;
   font-size: 2rem;
   margin-top: 2.5rem;
   font-family: "Gilroy-Light", sans-serif;
   font-size: 24px;
 }
+.skills__list div{width: calc(25% - 1rem);}
 
-.skills__list>*:hover {
+/* .skills__list>*:hover {
   text-transform: uppercase;
   font-family: "Gilroy-Medium", sans-serif;
-}
+} */
 .skills,.education,.experience,.projects,.contact {
   padding: 3rem 2rem;
 }
@@ -623,13 +626,16 @@ learn-more__text {
 }
 
 @media screen and (max-width:767px) {
+.skills__list div{width: calc(50% - 1rem);}
+
   .imgBanner {
+    display: none;
     position: absolute;
     bottom: 0;
     width: 300px;
     height: 260px;
   }
-
+  .project-tags{flex-direction: row;flex-wrap: wrap;}
   .typewriter {
     top: 120px
   }
@@ -639,7 +645,7 @@ learn-more__text {
   }
 
   .opacityBg {
-    height: 60vh;
+    height: 85vh;
   }
 
   .about__container {
@@ -745,8 +751,11 @@ learn-more__text {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 0;
+    height: auto;
+    margin-bottom: 15px;
   }
-
+  .btn-primary, .btn-primary:link, .btn-primary:visited{margin-bottom: 0;font-size: 16px;padding: 12px 24px;}
   .about__buttons .about__buttons-item:first-child {
     margin-right: 20px;
   }
@@ -754,4 +763,6 @@ learn-more__text {
   .title hr {
     width: 7rem;
   }
+  .contact-container__links-item{font-size: 18px;}
+  .contact-container{justify-content: space-between;margin-top: 15px;}
 }

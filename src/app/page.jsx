@@ -1,6 +1,4 @@
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from './page.module.css'
+// import { Inter } from '@next/font/google'
 import Header from '@/component/header'
 import HomePage from '@/component/home'
 import Skill from '@/component/skill'
@@ -11,7 +9,7 @@ import Achievements from '@/component/achievements'
 import Footer from '@/component/footer'
 import About from '@/component/about'
 
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
