@@ -55,6 +55,10 @@ const Skill = () => {
           <div>HTML5</div>
           <div>CSS3</div>
           <div>Git</div>
+          <div>Vercel</div>
+          <div>Netlify</div>
+          <div>Heroku</div>
+          <div>Jenkins</div>
         </div>
       </div>
     </div>
