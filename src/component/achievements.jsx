@@ -17,7 +17,7 @@ const Achievements = () => {
                         <a target="blank" href="https://www.collegedekho.com/" className="content-list__name-link">CollegeDekho</a>
                         - 2023
                     </h5>
-                    <div className="content-list__about">I am doing my work very well and also completing my work in very less time limit, that's why I have got the Limitless Performer Award for 2022-2023.</div>
+                    <div className="content-list__about">I am doing my work very well and also completing my work in very less time limit, that&apos;s why I have got the Limitless Performer Award for 2022-2023.</div>
                     {/* <div className="content-list__date">June 2022 - August 2022</div> */}
                 </div>
  <div className="content-list">
