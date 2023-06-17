@@ -16,7 +16,7 @@ const About = () => {
       <div className="about__content">
         <p className="about__text">
           My name is Adity Kumar, 
-I have experience as a MERN stack developer! With my experience, I have a solid understanding of MongoDB, Express.js, React, and Node.js technologies and how they work together to build web applications. Your expertise in the MERN stack positions you well to develop robust and scalable full-stack applications.
+I have experience as a MERN stack developer. I have a solid understanding of MongoDB, Express.js, React, and Node.js technologies and how they work together to build web applications. Your expertise in the MERN stack positions you well to develop robust and scalable full-stack applications.
           <br/><br/>
           I love working on new and exciting emerging technologies these days. I have good work experience as MERN stack developer.
 
