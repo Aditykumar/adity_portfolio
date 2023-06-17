@@ -12,16 +12,25 @@ const Achievements = () => {
             </div>
             <section className="content-container">
                 <div className="content-list">
-                    <h1 className="content-list__title">LIMITLESS PERFORMER Award</h1>
+                    <h1 className="content-list__title">Limitless Performer Award</h1>
+                    <h5 className="content-list__name">
+                        <a target="blank" href="https://www.collegedekho.com/" className="content-list__name-link">CollegeDekho</a>
+                        - 2023
+                    </h5>
+                    <div className="content-list__about">I am doing my work very well and also completing my work in very less time limit, that's why I have got the Limitless Performer Award for 2022-2023.</div>
+                    {/* <div className="content-list__date">June 2022 - August 2022</div> */}
+                </div>
+ <div className="content-list">
+                    <h1 className="content-list__title">Employee of The Month Award</h1>
                     <h5 className="content-list__name">
                         <a target="blank" href="https://www.collegedekho.com/" className="content-list__name-link">CollegeDekho</a>
                         - 2022
                     </h5>
-                    <div className="content-list__about">In CollegeDekho, I am doing my work very well and also completing my work with very less time limit. And I also got the Employee Of The Month Award.
+                    <div className="content-list__about">
+I am working very hard and got Employee of the Month Award in October 2022.
                     </div>
                     {/* <div className="content-list__date">June 2022 - August 2022</div> */}
                 </div>
-
             </section>
         </div>
 

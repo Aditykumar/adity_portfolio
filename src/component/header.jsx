@@ -20,7 +20,6 @@ const Header = () => {
       document.body.style.overflow = "hidden";
 
     }
-    console.log("first")
 
   }
 
@@ -39,13 +38,13 @@ const Header = () => {
 
           <div onClick={mobNavFnc} className={mobNav ? styles.close : styles.closeIcon + " " + styles.close}></div>
           <div className={styles.navLinks} >
-            <a href="#home" onClick={mobNav && mobNavFnc} className={styles.navLinksItem}>Home</a>
-            <a href="#about" onClick={mobNav && mobNavFnc} className={styles.navLinksItem}>About</a>
-            <a href="#skills" onClick={mobNav && mobNavFnc} className={styles.navLinksItem}>Skills</a>
-            <a href="#experience" onClick={mobNav && mobNavFnc} className={styles.navLinksItem}>Experience</a>
-            <a href="#projects" onClick={mobNav && mobNavFnc} className={styles.navLinksItem}>Projects</a>
-            <a href="#achievements" onClick={mobNav && mobNavFnc} className={styles.navLinksItem}>Achievements</a>
-            <a href="#contact" onClick={mobNav && mobNavFnc} className={styles.navLinksItem}>Contact</a>
+            <a href="#home" onClick={mobNav ? mobNavFnc : undefined} className={styles.navLinksItem}>Home</a>
+            <a href="#about" onClick={mobNav ? mobNavFnc : undefined} className={styles.navLinksItem}>About</a>
+            <a href="#skills" onClick={mobNav ? mobNavFnc : undefined} className={styles.navLinksItem}>Skills</a>
+            <a href="#experience" onClick={mobNav ? mobNavFnc : undefined} className={styles.navLinksItem}>Experience</a>
+            <a href="#projects" onClick={mobNav ? mobNavFnc : undefined} className={styles.navLinksItem}>Projects</a>
+            <a href="#achievements" onClick={mobNav ? mobNavFnc : undefined} className={styles.navLinksItem}>Achievements</a>
+            <a href="#contact" onClick={mobNav ? mobNavFnc : undefined} className={styles.navLinksItem}>Contact</a>
           </div>
 
         </div>

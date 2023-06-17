@@ -16,7 +16,7 @@ const Skill = () => {
           <div className="core-skills-item core-skills-item--imp">
             <h2 className="core-skills-item-title">Web Development</h2>
             <p className="core-skills-item-about">
-              I am a Full Stack Web Developer (MERN) and have quite some
+              I am a Mern Stack Developer and have quite some
               experience in it as well.
             </p>
           </div>
@@ -24,16 +24,14 @@ const Skill = () => {
           <div className="core-skills-item light-shadow">
             <h2 className="core-skills-item-title">Time Management</h2>
             <p className="core-skills-item-about">
-              I have good time management skills.
+            I have good time management skills which is a valuable asset in any professional role.
             </p>
           </div>
 
           <div className="core-skills-item light-shadow">
             <h2 className="core-skills-item-title">Problem Solving</h2>
             <p className="core-skills-item-about">
-              I love solving problems whether programming problems or real life
-              problems.
-            </p>
+            I possess problem-solving skills that enhance your capabilities as a developer and empower you to tackle technical and real-life challenges.            </p>
           </div>
         </div>
 

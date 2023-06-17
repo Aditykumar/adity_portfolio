@@ -15,18 +15,18 @@ const About = () => {
     <div className="about__container">
       <div className="about__content">
         <p className="about__text">
-          My name is Adity Kumar, I am a Full Stack Web Developer. An Open
-          Source enthusiast and a Computer Science student from India.
+          My name is Adity Kumar, 
+I have experience as a MERN stack developer! With my experience, I have a solid understanding of MongoDB, Express.js, React, and Node.js technologies and how they work together to build web applications. Your expertise in the MERN stack positions you well to develop robust and scalable full-stack applications.
           <br/><br/>
-          I love working on new and exciting technologies emerging nowadays. I
-          have good work experience as a MERN Stack Developer.
+          I love working on new and exciting emerging technologies these days. I have good work experience as MERN stack developer.
+
         </p>
 
         <div className="about__buttons">
           <a href="#skills" className="btn-primary about__buttons-item">
             Skills
           </a>
-          <a target="_blank" href="/assets/Adity_Resume.pdf" className="btn-primary about__buttons-item">
+          <a target="_blank" href="/assets/adity-mern-stack-developer.pdf" className="btn-primary about__buttons-item">
             Resume
           </a>
         </div>
