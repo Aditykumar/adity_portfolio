@@ -64,7 +64,7 @@ const Experience = () => {
             >
               PrepBytes
             </a>
-            - Internship
+            - Full-Time
           </h5>
           <div className="content-list__about">
             I have worked as a MERN stack developer and learned how to work
